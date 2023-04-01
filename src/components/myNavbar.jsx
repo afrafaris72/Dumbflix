@@ -103,7 +103,7 @@ function NavbarComponent (){
                     <Dropdown >
                     <Dropdown.Toggle
                             variant="black"
-                            style={{ backgroundColor: ""}}
+                            
                             id="dropdown-basic"
                         >
                             <Image
@@ -117,9 +117,9 @@ function NavbarComponent (){
                             }}
                             className="rounded-circle"
                             />
-                        </Dropdown.Toggle>
+                        </Dropdown.Toggle >
                         
-                            <Dropdown.Menu>
+                            <Dropdown.Menu style={{background:"#1f1f1f"}}>
                         
                             <Dropdown.Item
                                   style={{ color: "white" }}
@@ -131,9 +131,10 @@ function NavbarComponent (){
                                       objectFit: "cover",
                                       width: "20px",
                                       height: "20px",
+                                      color: "black",
                                     }}
                                   />
-                                  <b className="ms-2">Pay</b>
+                                  <b className="ms-2" >Pay</b>
                                 </Dropdown.Item>
                                 <Dropdown.Item
                                 style={{ color: "white" }}
