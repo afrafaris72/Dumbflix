@@ -1,0 +1,42 @@
+.card_custom {
+    width : 16%;
+    border-radius: 5px;
+}
+
+.name_style {
+    text-decoration: none;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150.2%;
+    color: white;
+}
+
+.modalText {
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+
+    color: #FFFFFF;
+}
+
+.titletrans {
+    color: red;
+}
+
+.activetrans {
+    color: #0ACF83;
+    ;
+}
+
+.plain {
+    color: #FFFFFF;
+}
+
+.pending{
+    color: orange;
+}
+
