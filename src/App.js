@@ -5,6 +5,7 @@ import TvShows from './pages/TvShows';
 import {Home, Movie, VideoDetail, Profile, Payment, Notfound} from './pages'
 import TvDetail from './pages/TvDetail';
 import UserTransaction from './pages/UserTransaction';
+import AddFilmAdmin from './pages/AddFilmAdmin';
 
 function App() {
   return (
@@ -32,6 +33,12 @@ function App() {
       <Route path='/video' element={
         <Layout>
           <VideoDetail />
+        </Layout>
+      }/>
+
+      <Route path='/addfilmadmin' element={
+        <Layout>
+          <AddFilmAdmin/>
         </Layout>
       }/>
       

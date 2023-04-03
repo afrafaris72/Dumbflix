@@ -94,12 +94,15 @@ function Navbar() {
                     </Dropdown.Item>
 
 
-                  <Dropdown.Item as={Link} to='/payment'>
-                   <FaMoneyCheckAlt className="text-danger ms-2"/> Pay
-                  </Dropdown.Item>
+                    <Dropdown.Item as={Link} to='/payment'>
+                     <FaMoneyCheckAlt className="text-danger ms-2"/> Pay
+                    </Dropdown.Item>
+                    {/* <Dropdown.Item as={Link} to='/addfilmadmin'>
+                     <FaMoneyCheckAlt className="text-danger ms-2"/> Add Film Admin
+                    </Dropdown.Item>
                   <Dropdown.Item as={Link} to='/usertransaction'>
                    <FaMoneyCheckAlt className="text-danger ms-2"/> Transaction
-                  </Dropdown.Item>
+                  </Dropdown.Item> */}
                   <Dropdown.Divider className="bg-light dropDivid"  />
                   <Dropdown.Item href="#" onClick={handleLogout}>
                   <FaSignOutAlt className="text-danger ms-2" />   Logout
